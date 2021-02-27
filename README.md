@@ -5,6 +5,7 @@ There are six dynamic weekday cells, which move every day so that the current da
 This eliminates wasted space on your planner for days that have already past.
 
 ***not implemented yet***
+
 When a day passes, its contents are moved to the "Complete" cell where the will stay
 for a couple days.
 
