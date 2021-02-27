@@ -4,7 +4,7 @@ Vanilla javascript web planner.
 There are six dynamic weekday cells, which move every day so that the current day is first.
 This eliminates wasted space on your planner for days that have already past.
 
-***not implemented yet***
+***not implemented yet***:
 
 When a day passes, its contents are moved to the "Complete" cell where the will stay
 for a couple days.
