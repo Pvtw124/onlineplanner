@@ -1,0 +1,107 @@
+body{
+background:rgb(29, 31, 37);
+color:rgb(232, 194, 127);
+text-align: center;
+font-size:2.5em;
+font-family:sans-serif;
+}
+
+#listWrapper{
+    background-color: rgb(32, 36, 42);
+    color: rgb(232, 115, 117);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows:minmax(40vh, auto);
+    grid-gap: .5em;
+    padding: .5em;
+    text-align: left;
+    font-size: .6em
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41, 44, 55);
+    padding: 1em;
+    font-size: .8em;
+    border-radius: .5em;
+}
+
+#three, #seven{
+    background: rgb(37, 41, 49);
+}
+
+.button-wrapper{
+    display: flex;
+}
+
+.button{
+    color: black;
+    text-align: center;
+    font-size: .7em;
+    padding: .4em;
+    margin: .3em;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: 80%;
+}
+
+.task{
+    background: rgb(90, 172, 68);
+}
+
+.save{
+    background:rgb(46, 179, 219);
+    width: 4em;
+}
+
+.cancel{
+    background: rgb(146, 146, 146);
+}
+
+.remove{
+    background: rgb(235, 48, 48);
+    width: 5em;
+}
+
+.edit{
+    background: rgb(90, 172, 68);
+    width: 4em;
+}
+
+.text-box{
+    margin-top: .3em;
+    border: none;
+    border-radius: .5em;
+}
+
+.task-box{
+    position: relative;
+    color: black;
+    background: rgb(46, 179, 219);
+    padding: .6em;
+    margin: .3em;
+    text-align: center;
+    border-radius: .5em;
+    font-size: .8em;
+}
+
+.task-box .fa-edit{
+    position: absolute;
+    right: .1em;
+    bottom: .3em;
+    opacity: 0%;
+}
+.task-box .fa-edit:hover{
+    opacity: 100%;
+    color: rgb(206, 36, 36);
+    cursor: pointer;
+}
+
+.task-box:hover .fa-edit{
+    opacity:.5;
+}
+
